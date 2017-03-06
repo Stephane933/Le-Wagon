@@ -1,0 +1,469 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.containerHeader{
+	width: 100%;
+	height: auto;
+	
+
+}
+
+.Menu{
+	position: absolute;
+	display: inline;
+	padding: 0 0.5em;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	margin-left: 220px;
+	font-size: 12px;
+	
+
+}
+
+.logoWagon{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 590px;
+}
+
+a{
+	list-style: none;
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	margin-left: 70px;
+	text-decoration: none;
+	list-style: none;
+	
+}
+
+.imgHeader{
+	position: absolute;
+	width: 80%;
+	height: 60%;
+	margin-top: 12%;
+	margin-left: 13%;
+	opacity: 2;
+
+}
+
+.btn{
+	position: absolute;
+	margin-left: 1100px;
+	margin-top: 65px;
+	height: 50px;
+	width: 80px;
+	font-size: 16.5px;
+}
+
+.TXTHEADER{
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 40px;
+	margin-top: 220px;
+	margin-left: 400px;
+	
+}
+
+.SsText{
+	width: 300px;
+	height: 15px;
+	background-color: red;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: 700px;
+	opacity: 0.7;
+}
+
+.TXTHEADER2{
+	position: absolute;
+	color: white;
+	margin-top: 350px;
+	margin-left: 390px;
+	font-size: 30px;
+}
+
+.txtHeader{
+	background-color: white;
+	border: solid 0.5px grey;
+	position: absolute;
+	width: 220px;
+	height: 40px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 520px;
+	margin-left: 390px;
+	border-radius: 5px;
+	color: grey;
+}
+
+.txtHeader2{
+	position: absolute;
+	background-color: #D23333;
+	width: 290px;
+	height: 40px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 520px;
+	margin-left: 630px;
+	color: white;
+	border-radius: 5px;
+}
+
+.drapeaux{
+	position: absolute;
+	margin-top: -70px;
+}
+
+.drapeaux1{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 138px;
+	margin-left: 10px;
+	opacity: 0.2%;
+
+}
+
+.drapeaux2{
+	position: absolute;
+	width: 40px;
+	height:45px;
+	margin-top: 130px;
+	margin-left: 70px;
+}
+
+.drapeaux3{
+	position: absolute;
+	margin-top: 2px;
+	width: 25px;
+	height:20px;
+	margin-top: 143px;
+	margin-left: 145px;
+
+}
+
+h1{
+	position: absolute;
+	font-size: 30px;
+	margin-top: 600px;
+	margin-left: 500px;
+	font-family: 'Griffy', cursive;
+
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+
+}
+
+.block1{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 700px;
+	margin-left: 100px;
+
+}
+
+.block2{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 700px;
+	margin-left: 500px;
+}
+
+.block3{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 700px;
+	margin-left:910px;
+
+}
+
+.block4{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 950px;
+	margin-left: 100px;
+
+}
+
+.block5{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 950px;
+	margin-left: 500px;
+
+}
+
+.block6{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin-top: 950px;
+	margin-left: 910px
+
+
+}
+
+.txtBody{
+	color: grey;
+	font-family: 'Ranga', cursive;
+	font-size: 17px;
+}
+
+h3{
+	position: absolute;
+	margin-top: 1190px;
+	margin-left: 540px;
+	font-size: 20px;
+}
+
+#soulignement{
+	background-color: #A8E5A8;
+	position: absolute;
+	z-index: 999;
+	width: 160px;
+	height: 10px;
+	margin-top: 1209px;
+	margin-left: 540px;
+	
+}
+
+
+.Reviews{
+	position: absolute;
+	margin-top: 1290px;
+	font-size: 35px;
+	margin-left: 500px;
+	font-family: 'Fjalla One', sans-serif;
+
+}
+
+
+.Pensent{
+	position: absolute;
+	margin-top: 1350px;
+	font-size: 30px;
+	font-family: 'Ranga', cursive;
+	margin-left: 470px;
+	color: grey;
+
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+.Carousel{
+	width: 70%;
+	height: 200px;
+	position: absolute;
+	margin-top: 1400px;
+	margin-left: 200px;
+}
+
+.txtCarou{
+	width: 200px;
+	height: 170px;
+	margin-left: 10px;
+	border: solid 1px grey;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+.txt2Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 15px;
+	border: solid 1px grey;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+
+.txt3Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 15px;
+	border: solid 1px grey; 
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+
+.txt4Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 10px;
+	border: solid 1px grey;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+.txt5Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 15px;
+	border: solid 1px grey;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+
+.txt6Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 15px;
+	border: solid 1px grey; 
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+.txt7Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 10px;
+	border: solid 1px grey;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+.txt8Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 15px;
+	border: solid 1px grey;
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+
+.txt9Carou{
+	width: 200px;
+	height: 170px;
+	margin-left: 15px;
+	border: solid 1px grey; 
+	padding-left: 5px;
+	padding-top: 15px;
+	font-family: 'Merriweather', serif;
+}
+
+
+.logoPartenaire{
+	margin-top: 111px;
+	display: flex;
+	width: 70%;
+	height: 200px;
+	margin-left: 250px;
+}
+
+
+.logoPartenaire1{
+	width: 100px;
+	height: 100px;
+	
+}
+
+.logoPartenaire2{
+	width: 200px;
+	height:100px;
+
+}
+
+.logoPartenaire4{
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+	margin-left: 70px;
+	
+}
+
+.logoPartenaire3{
+	width: 100px;
+	height:100px;
+	border-radius: 50%; 
+	margin-left: 50px;
+}
+
+h4{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: -100px;
+	font-size: 20px;
+}
+
+.containerMid{
+	width: 100%;
+	height: auto;
+
+}
+
+.imgMid{
+	margin-left: 10px;
+	width: 100%;
+	height: 500px;
+
+}
+
+.divMid{
+	width: 100%;
+
+
+}
